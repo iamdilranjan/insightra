@@ -10,3 +10,10 @@ requests
 python-multipart
 pypdf
 langchain-huggingface
+tavily-python
+langgraph
+python-dotenv
+uuid
+shutil
+os
+json
