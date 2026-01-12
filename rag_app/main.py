@@ -42,7 +42,7 @@ llm = ChatGroq(
 # TAVILY (WEB SEARCH)
 # --------------------------------------------------
 tavily = TavilyClient(
-    api_key=os.getenv("TAVILY_API_KEY") or "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"
+    api_key=os.getenv("TAVILY_API_KEY") or ""
 )
 
 # --------------------------------------------------
