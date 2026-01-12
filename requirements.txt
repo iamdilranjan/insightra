@@ -14,3 +14,4 @@ tavily-python
 langgraph
 python-dotenv
 langchain_groq
+sentence-transformers
