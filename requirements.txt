@@ -8,3 +8,4 @@ python-docx
 beautifulsoup4
 requests
 python-multipart
+pypdf
