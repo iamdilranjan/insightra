@@ -6,9 +6,9 @@ import os
 # ---------------- TAVILY CLIENT ----------------
 # (Best practice: move key to .env later)
 tavily = TavilyClient(
-    api_key="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"
+    api_key=""
 )
-
+ 
 # =====================================================
 # 🔹 LLM-BASED FOLLOW-UP QUESTION GENERATOR
 # =====================================================
