@@ -1,71 +1,86 @@
-🚀 Insightra
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d0b05b81-d168-498c-ae67-87c46e638817" width="800" />
+</p>
 
-Insightra is an AI-powered backend platform that enables users to upload PDFs, scan URLs, ingest raw text, and retrieve intelligent, context-aware insights from both private documents and the open web.
+<h1 align="center">🚀 Insightra</h1>
 
-From Data to Decisions.
+<p align="center">
+  <b>From Data to Decisions.</b><br>
+  AI-powered backend to upload PDFs, scan URLs, ingest raw text, and retrieve intelligent, context-aware insights.
+</p>
 
-<img width="3420" height="2224" alt="screenshort" src="https://github.com/user-attachments/assets/bc00d88d-e549-4ceb-9ce4-0c1ad2d07f38" />
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/FastAPI-Backend-success" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Python-3.10+-blue" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/LLM-Groq-purple" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Search-Tavily-orange" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Deploy-Render-black" /></a>
+</p>
 
+---
 
-🌟 Why Insightra?
+## 🌟 Why Insightra?
 
-Modern information is scattered across documents, web pages, and raw text. Insightra unifies all of this into a single intelligent search and insight engine.
+Modern information is scattered across documents, web pages, and raw text. **Insightra** unifies all of this into a single intelligent search and insight engine.
 
 With Insightra, you can:
 
-📄 Upload documents
+- 📄 Upload documents  
+- 🌐 Crawl URLs  
+- 🧠 Extract and store knowledge  
+- 🔍 Query using natural language  
+- 📚 Get AI-powered, source-backed answers  
 
-🌐 Crawl URLs
+---
 
-🧠 Extract and store knowledge
+## ✨ Core Features
 
-🔍 Query using natural language
+| Feature | Description |
+|--------|------------|
+| 📄 PDF Ingestion | Upload & parse documents |
+| 🌐 URL Crawling | Extract content from webpages |
+| 🧠 Semantic Search | AI-powered understanding |
+| 🔍 Context Retrieval | Smart chunk + relevance matching |
+| 📚 Source-backed Answers | Transparent citations |
+| ⚡ FastAPI Backend | High-performance APIs |
+| 🔐 Secure Keys | Environment-based secrets |
+| ☁️ Cloud Ready | Deployable on Render |
+| 🧩 Modular Design | Easy to extend |
 
-📚 Get AI-powered, source-backed answers
+---
 
-✨ Core Features
+## 🧠 How It Works
 
-📄 PDF ingestion & processing
 
-🌐 URL scanning & crawling
+1. **Ingest** – Upload PDFs, URLs, or raw text  
+2. **Process** – Extract, chunk, clean, and embed  
+3. **Store** – Save in vector + metadata stores  
+4. **Search** – Semantic + keyword + web fusion  
+5. **Answer** – AI generates contextual responses  
 
-🧠 AI-powered semantic search
+---
 
-🔍 Context-aware retrieval
+## 🏗️ Tech Stack
 
-📚 Source-based answers
+| Layer | Technology |
+|------|------------|
+| ⚙️ Backend | FastAPI |
+| 🧠 LLM | Groq |
+| 🌐 Web Search | Tavily |
+| 🗄️ Vector Store | Your current one |
+| 🐍 Language | Python 3.10+ |
+| ☁️ Deployment | Render |
 
-⚡ High-performance FastAPI backend
+---
 
-🔐 Secure API key handling
 
-☁️ Cloud deployment ready (Render)
+---
 
-🧩 Modular architecture
+## 🔐 Environment Variables
 
-🧠 How It Works
+Create a `.env` file (never commit this):
 
-Ingest – Upload PDFs, URLs, or raw text
-
-Process – Extract, chunk, clean, and embed
-
-Store – Save in vector + metadata stores
-
-Search – Semantic + keyword + web fusion
-
-Answer – AI generates contextual responses
-
-🏗️ Tech Stack
-Layer	Technology
-Backend	FastAPI
-LLM	Groq
-Web Search	Tavily
-Vector Store	Your current one
-Language	Python 3.10+
-
-🔐 Environment Variables
-
-Create a .env file (never commit this):
-
+```env
 GROQ_API_KEY=your_key_here
 TAVILY_API_KEY=your_key_here
+
