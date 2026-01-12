@@ -1,9 +1,9 @@
 fastapi
 uvicorn
 langchain
+langchain-community
 openai
 faiss-cpu
-pypdf
 python-docx
 beautifulsoup4
 requests
